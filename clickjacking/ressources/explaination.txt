@@ -1,0 +1,1 @@
+clickjacking : is type attack that trigger the user to click on a button or link on another page when they were intending to click on the top level page 
