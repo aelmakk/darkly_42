@@ -12,8 +12,9 @@ Inspect the submit form
 We note that there is a hidden email
 We tried to change it .
 
-
-
+```
+<input type="text" name="mail" value="1337@borntosec.com" ... >
+```
 
 ## Use
 > 
