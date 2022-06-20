@@ -16,14 +16,4 @@ We tried to change it .
 <input type="text" name="mail" value="1337@borntosec.com" ... >
 ```
 
-## Use
-> 
-
-## Prevention
-> - 
-
-## Documentation
-- []()
-
-
 ---
