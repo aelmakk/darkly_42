@@ -30,6 +30,6 @@ data:[mediatype][;base64],data
 ## Documentation
 - [Base64 - Decode/Encode](https://https://www.base64decode.org/)
 - [What is Cross-Site Scripting (XSS) Off-Domain – Data URI Vulnerability?](https://zofixer.com/what-is-cross-site-scripting-xss-off-domain-data-uri-vulnerability/)
-
+[Data URLs](https://wiki.zacheller.dev/web-app-pentest/xss/data-urls)
 - [Web Security Lens](https://https://www.websecuritylens.org/tag/xss/)
 ---
