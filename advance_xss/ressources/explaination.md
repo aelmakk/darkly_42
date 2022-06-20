@@ -15,17 +15,14 @@ Base64(<script>alert(1)</script>) = PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
 
 Enter *decripted script* in the name input.
 
-data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
-
-## Use
-> Data URI is a clever method of inserting tiny files inline in HTML texts. Instead of referring to a file kept locally on the server, the file is delivered as a base64-encoded string of data prefixed by a mime-type inside the URL itself.
 ```
 data:[mediatype][;base64],data
 ```
 
+data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
 
-## Prevention
-
+## Use
+> Data URI is a clever method of inserting tiny files inline in HTML texts. Instead of referring to a file kept locally on the server, the file is delivered as a base64-encoded string of data prefixed by a mime-type inside the URL itself.
 
 ## Documentation
 - [Base64 - Decode/Encode](https://https://www.base64decode.org/)
