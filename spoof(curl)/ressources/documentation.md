@@ -25,5 +25,6 @@ An HTTP request has the option to include information about the browser that gen
 
 ## Protection
 make sure not to leave secret information on comments
+
 ## Ressources
 - [curl manual](https://curl.se/docs/manual.html)

@@ -16,14 +16,5 @@ Change value="10" and select it
 # element inspector
 <option value="1337">7</option>
 ```
-## Use
-> 
-
 ## Prevention
-> - 
-
-## Documentation
-- []()
-
-
----
+> - Don't trust user input, always do your your verifications.
