@@ -14,8 +14,8 @@ f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
 On the page http://{IP_ADDRESS}/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
 
 Viewing the page source i found two hints :
-   - <!-- You must cumming from : "https://www.nsa.gov/" to go to the next step -->
-   - <!-- Let's use this browser : "ft_bornToSec". It will help you a lot. -->
+   - You must cumming from : "https://www.nsa.gov/" to go to the next step
+   - Let's use this browser : "ft_bornToSec". It will help you a lot.
 so i thought of using curl with (--referer , -A) options:
 
 ### Referrer
@@ -24,5 +24,5 @@ An HTTP request has the option to include information about which address referr
 ### User Agent
 An HTTP request has the option to include information about the browser that generated the request. Curl allows it to be specified on the command line. It is especially useful to fool or trick stupid servers or CGI scripts that only accept certain browsers
 
-## Documentation
+## Ressources
 - [curl manual](https://curl.se/docs/manual.html)
