@@ -17,4 +17,4 @@ Change value="10" and select it
 <option value="1337">7</option>
 ```
 ## Prevention
-> - Don't trust user input, always do your your verifications.
+> - Don't trust user input including form submissions, always do your verifications.
