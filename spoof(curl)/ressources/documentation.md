@@ -1,8 +1,3 @@
-On the page 
- 
-curl -o out -A ft_bornToSec --referer https://www.nsa.gov/ http://10.13.100.58/\?page\=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
-grep flag out
-
 # Spoofing
 
 ## Flag
@@ -18,11 +13,17 @@ Viewing the page source i found two hints :
    - Let's use this browser : "ft_bornToSec". It will help you a lot.
 so i thought of using curl with (--referer , -A) options:
 
+### command
+- curl -o out -A ft_bornToSec --referer https://www.nsa.gov/ http://10.13.100.58/\?page\=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
+- grep flag out
+
 ### Referrer
 An HTTP request has the option to include information about which address referred it to the actual page. curl allows you to specify the referrer to be used on the command line. It is especially useful to fool or trick stupid servers or CGI scripts that rely on that information being available or contain certain data.
 
 ### User Agent
 An HTTP request has the option to include information about the browser that generated the request. Curl allows it to be specified on the command line. It is especially useful to fool or trick stupid servers or CGI scripts that only accept certain browsers
 
+## Protection
+make sure not to leave secret information on comments
 ## Ressources
 - [curl manual](https://curl.se/docs/manual.html)
