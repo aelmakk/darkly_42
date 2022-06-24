@@ -24,7 +24,7 @@ Retrieve columns names with the table they belong to:
 
 the command below will retrieve all image's data
 ```
-1 AND 1=2 UNION SELECT id, CONCAT(url, title, comment) FROM list_images
+1 UNION SELECT id, CONCAT(url, title, comment) FROM list_images
 ```
 
 the result shows this interesting image with title (Hack me ?):
@@ -36,7 +36,7 @@ the result shows this interesting image with title (Hack me ?):
 following the instruction :
 * analyzing the password using [cipher identifier](https://www.dcode.fr/cipher-identifier)
 * decrypt the password using [md5decrypt - md5](https://md5decrypt.net/en/)
-* 5ff9d0165b4f92b14994e5c685cdce28 gives albatroz 
+* 1928e8083cf461a51303633093573c46 gives albatroz 
 * lower all the char, encrypt it using Sh256
 * flag is f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
 
