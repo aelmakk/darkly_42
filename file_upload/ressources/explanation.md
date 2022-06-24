@@ -12,7 +12,7 @@ Uploaded files represent a significant risk to applications. The first step in m
 
 On the page http://{IP_ADDRESS}/?page=upload
 
-At the begining i thought of upload a file .php instead of image, interapting the request with burp suit i found that the file type is (text/php)
+At the begining i thought of uploading a file .php instead of image, intercepting the request with burp suit i found that the file type is (text/php)
 so i changed the file type to (image/jpeg), using curl i was able to get the flag.
 
 ### command
