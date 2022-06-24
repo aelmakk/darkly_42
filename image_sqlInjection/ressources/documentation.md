@@ -44,6 +44,8 @@ following the instruction :
 - [retrieve data from db](https://www.sqlinjection.net/table-names/)
 - [dcode - cipher identifier](https://www.dcode.fr/cipher-identifier)
 - [md5decrypt - md5](https://md5decrypt.net/en/)
+- [sha256 - sh256](https://emn178.github.io/online-tools/sha256.html)
+
 
 ## Ressources
 - [Owasp SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
