@@ -10,7 +10,14 @@ Uploaded files represent a significant risk to applications. The first step in m
 
 ## Discovery
 
-On the page http://{IP_ADDRESS}/?page=uploadgit 
+On the page http://{IP_ADDRESS}/?page=upload
+
+At the begining i thought of upload a file .php instead of image, interapting the request with burp suit i found that the file type is (text/php)
+so i changed the file type to (image/jpeg), using curl i was able to get the flag.
+
+### command
+
+curl -F "Upload=Upload" -F "uploaded=@pyload.php;type=image/jpeg" http://IP/\?page\=upload | grep flag
 
 ## Prevention
 
