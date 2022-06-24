@@ -10,11 +10,11 @@ Uploaded files represent a significant risk to applications. The first step in m
 
 ## Discovery
 
-On the page http://{IP_ADDRESS}/?page=upload
+On the page http://{IP_ADDRESS}/?page=uploadgit 
 
 ## Prevention
 
-- Never accept a filename and its extension directly without having an allow list filter.
+- Never accept a filename and its extension directly without having any filter.
 
 ## Ressources
 
